@@ -1,0 +1,30 @@
+{
+  "name": "graphqlFirstOne",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jonatanav255/graphqlFirstOne.git",
+  "author": "jonatanav255 <jonatanav255@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "dev":"ts-node-dev --exit-child --transpile-only src/main.ts"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.0.4",
+    "@fastify/jwt": "^7.2.0",
+    "@prisma/client": "^5.1.1",
+    "apollo-server-core": "^3.12.0",
+    "apollo-server-fastify": "^3.12.0",
+    "argon2": "^0.31.0",
+    "class-validator": "^0.14.0",
+    "fastify": "^4.21.0",
+    "graphql": "^16.7.1",
+    "prisma": "^5.1.1",
+    "reflect-metadata": "^0.1.13",
+    "subscriptions-transport-ws": "^0.11.0",
+    "type-graphql": "^1.1.1"
+  }
+}
