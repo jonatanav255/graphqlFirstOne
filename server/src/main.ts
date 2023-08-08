@@ -5,6 +5,12 @@ async function main() {
   const { app, server } = await createServer();
   await server.start();
 
+  app.register(
+    server.createHandler({
+      cors: false,
+    })
+  );
+
   await app.listen({
     port: 4000,
   });
